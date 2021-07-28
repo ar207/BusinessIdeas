@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AirbndWithoutHome">
+
+    <ImageView
+        android:id="@+id/lakh1"
+        android:layout_width="match_parent"
+        android:layout_height="211dp"
+        android:background="@drawable/withouthouse"
+        android:scaleType="centerCrop" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/lakh1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/wbnb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:drawableStart="@drawable/rtarw"
+                android:drawableLeft="@drawable/rtarw"
+                android:ems="10"
+                android:text="@string/detail_of_business"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/wbnb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/if_you_don_t_already_know_airbnb_essentially_lets_you_become_your_own_hotel_n_millions_of_people_are_making_money_by_listing_an_extra_bedroom_entire_home_or_unused_space_on_airbnb_and_renting_it_out_to_travellers_n_many_people_think_that_being_a_successful_airbnb_host_requires_owning_your_own_properties_but_that_doesn_t_have_to_be_the_case_always_n_you_can_actually_earn_a_hefty_amount_of_money_renting_out_other_people_s_properties_n_in_this_article_you_ll_learn_how_you_can_do_airbnb_without_owning_a_home_n_it_s_called_a_hsmc_and_it_s_a_genius_business_model"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/wbnb3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:ems="10"
+                android:text="@string/how_does_a_hsmc_work"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/wbnb4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/there_are_millions_of_homeowners_who_have_an_extra_unused_room_or_empty_vacation_home_that_s_just_collecting_dust_that_s_where_you_come_in"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/wbnb5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/you_will_find_these_homeowners_and_pitch_them_on_listing_their_extra_room_or_home_on_airbnb_so_you_can_both_make_money_you_tell_them_you_will_run_the_airbnb_and_manage_it_and_they_collect_50_of_profits_for_letting_you_use_their_property"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/wbnb6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:ems="10"
+                android:text="@string/why_would_they_say_yes"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/wbnb7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/their_property_is_empty_anyways_so_they_will_say_yes_if_you_pitch_it_successfully_n_without_you_they_are_losing_money_or_leaving_money_on_the_table_n_they_also_have_zero_idea_on_how_to_use_airbnb_and_don_t_have_the_time_to_learn_n_once_they_say_yes_you_re_going_to_create_the_listing_on_airbnb_takes_a_few_hours_at_most_n_then_you_start_getting_guests_and_collect_the_passive_income_that_comes_in_each_month_through_that_listing_nthen_you_re_making_money_from_real_estate_with_zero_ownership_of_any_homes_amazing_right"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/wbnb8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/holo_green_light"
+                android:ems="10"
+                android:text="@string/pros_and_cons_of_a_hsmc"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/wbnb9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/this_business_model_wasn_t_available_decades_ago_and_you_used_to_need_a_big_downpayment_to_buy_a_property_n_but_thanks_to_the_invention_of_airbnb_and_similar_apps_anyone_can_get_into_real_estate_with_some_work_ethic_n_let_s_look_at_the_pros_and_cons_to_see_if_it_s_right_for_you"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/wbnb10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/holo_green_light"
+                android:ems="10"
+                android:text="How To Get Started: "
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/wbnb11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/there_are_over_500_000_bookings_on_airbnb_every_single_night_in_over_191_countries_all_you_need_to_do_is_pitch_a_property_owner_to_work_with_you_n_once_you_do_that_you_can_list_their_place_on_airbnb_and_start_builing_a_stream_of_passive_income_n"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/wbnb12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:text="@string/you_can_take_this_idea_and_start_right_now_on_your_own_however_if_you_want_someone_to_walk_you_through_every_single_step_then_take_tai_lopez_s_hsmc_course_n_by_learning_from_a_mentor_you_will_save_some_time_and_build_it_right"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

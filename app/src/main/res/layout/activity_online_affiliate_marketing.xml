@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OnlineAffiliateMarketing">
+
+    <ImageView
+        android:id="@+id/af1"
+        android:layout_width="match_parent"
+        android:layout_height="211dp"
+        android:background="@drawable/onlineafflitemarketing"
+        android:scaleType="centerCrop" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/af1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/af2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:drawableStart="@drawable/rtarw"
+                android:drawableLeft="@drawable/rtarw"
+                android:ems="10"
+                android:text="Detail of Business"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/af3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="Wake up at an ungodly hour.\n Drive to the office through total gridlock, streets jammed with other half-asleep commuters.\n Slog through email after mind-numbing email until the sweet release at five o’clock."
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/blg4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:drawableStart="@drawable/rtarw"
+                android:drawableLeft="@drawable/rtarw"
+                android:ems="10"
+                android:text="Sound terrible?"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            zzz
+
+            <TextView
+                android:id="@+id/af4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="What if, instead of dealing with the monotony and stupor of the rat race to earn a few bucks,\n you could make money at any time, from anywhere — even while you sleep?
+\nThat’s the concept behind affiliate marketing.
+\nExamples of famous super-affiliates to get inspired:
+\nWell-known affiliate marketer Pat Flynn grew his affiliate business from $8000 to $1,00,000 per month.
+\nTom from Onlinemediamasters went from $20k to $150k of annual income over two years.
+\nDoug Cunnington made $70k in 2017 from just one niche website."
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/af5"
+                android:layout_width="wrap_content"
+                android:layout_height="58dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:text="What is Affiliate marketing ?"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/af6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="Affiliate marketing is the process of earning a commission by promoting other people’s (or company’s) products and when that some one buys the product based on your recommendation, you receive a commission.
+\nEvery big company like Amazon, Apple, Google have an affiliate program, which is free to join by any individual across the globe. If you didnot knew about this, then pay close attention to rest of this guide, my friend, you are about to discover one of the most interesting aspect of making money from home.
+\nThis commission varies from $1 to $2000  depending on what product you are promoting."
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/af7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+
+                android:text=" Here is how affiliate marketing works in 4 simple steps:"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/af8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="You join an affiliate program.\n
+You pick a product to promote (You will get a unique affiliate link)\n
+You share the link via Social media, Blog, YouTube videos, Facebook ads or any other form\n
+When someone makes a purchase, you earn a handsome affiliate commission.\n
+As simple as that...!!"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/af9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:ems="10"
+                android:text="Some High paying Affiliate Programs :"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/af10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="50dp"
+                android:text="1. Amazing Selling Machine (ASM)
+\n2. Clickfunnels
+\n3. Hubspot
+\n4. Improvely
+\n5. Kinsta
+\n6. Liquid Web
+\n7. Puffy Mattress
+\n8. Shopify Plus
+\n9. Spocket Affiliate Program
+\n10. Thinkific
+\n11. Volusion
+\n12. WP Engine"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

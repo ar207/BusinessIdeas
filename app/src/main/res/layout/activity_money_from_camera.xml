@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MoneyFromCamera">
+
+    <ImageView
+        android:id="@+id/tenk2"
+        android:layout_width="match_parent"
+        android:layout_height="211dp"
+        android:background="@drawable/cmra"
+        android:scaleType="centerCrop" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tenk2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/cam1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:drawableStart="@drawable/rtarw"
+                android:drawableLeft="@drawable/rtarw"
+                android:ems="10"
+                android:text="@string/detail_of_business"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/cam2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/shutterstock_is_a_stock_photo_website_where_photographers_and_videographers_can_make_money_by_uploading_their_work_n_if_you_sign_up_as_a_shutterstock_contributor_you_will_be_paid_every_time_your_photos_or_videos_are_downloaded_n_shutterstock_has_paid_out_more_than_1_billion_to_its_contributors_n_you_can_get_a_slice_of_that_pie_keep_reading_for_more_info"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/cam3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:ems="10"
+                android:text="@string/what_is_it"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/cam4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/shutterstock_is_an_online_photo_database_where_users_everywhere_can_upload_their_photography_videography_graphic_designs_and_more_n_your_work_can_then_earn_money_every_time_it_s_used_by_someone_else_n_if_you_have_a_large_library_of_popular_photos_that_people_are_downloading_this_can_turn_into_a_passive_income_stream"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/cam5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:ems="10"
+                android:text="@string/who_is_it_for"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/cam6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/you_might_be_thinking_that_you_need_to_be_a_world_class_photographer_to_earn_money_but_that_s_simply_not_the_case_n_anyone_with_at_least_a_dslr_camera_and_basic_photography_skills_can_earn_income_n_obviously_though_the_more_photography_expertise_you_have_the_more_successful_you_will_be"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/cam7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:ems="10"
+                android:text="@string/how_does_it_pay"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/cam8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/shutterstock_payments_are_divided_into_different_tiers_n_you_ll_initially_earn_us_0_25_per_download_but_as_you_earn_more_your_earnings_can_rise_as_high_as_us_2_85_per_download_n_for_videos_and_custom_images_you_will_earn_20_to_30_for_your_content"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/cam9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:ems="10"
+                android:text="@string/cons"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/cam10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/need_a_decent_camera_at_least_a_dslr_n_can_take_time_to_build_a_quality_portfolio_that_people_are_downloading_consistently_n_photos_need_to_get_approved_by_shutterstock_n_only_get_to_keep_30_of_what_your_content_sells_for"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/cam11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:ems="10"
+                android:text="The_bottom_line"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/cam12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/if_you_have_a_passion_for_photography_and_know_how_to_compose_a_decent_shot_becoming_a_shutterstock_contributor_can_lead_to_an_impressive_passive_income_stream_n_and_if_you_love_taking_photos_it_can_be_a_rewarding_way_to_earn_money_from_one_of_your_personal_talents"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/cam13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="50dp"
+                android:text="@string/also_making_money_with_photography_n_make_money_selling_your_iphone_android_photos_with_foap"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

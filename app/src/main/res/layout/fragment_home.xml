@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".ui.home.HomeFragment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="20dp"
+        app:cardCornerRadius="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Enter Amount"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/amount"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/bg_edit_text"
+            android:gravity="top"
+            android:hint="Enter Amount Upto 10,000"
+            android:inputType="number"
+            android:outlineSpotShadowColor="@color/cardview_dark_background"
+            android:padding="5dp"
+            android:shadowDx="@android:integer/config_shortAnimTime"
+            android:shadowDy="@android:integer/config_shortAnimTime"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/search_business"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="130dp"
+            android:background="@drawable/bg_button"
+            android:ems="10"
+            android:onClick="onClick"
+            android:text="Search"
+            android:textColor="#ffffff"
+            tools:ignore="OnClick" />
+
+
+        <Button
+            android:id="@+id/offline_ideas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/bg_button"
+            android:ems="10"
+            android:onClick="onClick"
+            android:text="Investment"
+            android:textColor="#ffffff"
+            tools:ignore="OnClick" />
+
+        <Button
+            android:id="@+id/online"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="260dp"
+            android:background="@drawable/bg_button"
+            android:ems="10"
+            android:onClick="onClick"
+            android:text="With Out Investment"
+            android:textColor="#ffffff"
+            tools:ignore="OnClick" />
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

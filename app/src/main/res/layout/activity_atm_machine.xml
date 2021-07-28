@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AtmMachine">
+
+    <ImageView
+        android:id="@+id/lakh2"
+        android:layout_width="match_parent"
+        android:layout_height="211dp"
+        android:background="@drawable/atms"
+        android:scaleType="centerCrop" />
+
+    <ScrollView
+        android:id="@+id/scr1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/lakh2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/atm1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lakh2"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:drawableStart="@drawable/rtarw"
+                android:drawableLeft="@drawable/rtarw"
+                android:ems="10"
+                android:text="@string/detail_of_business"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/atm2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/have_you_ever_wondered_who_atms_belong_to_nwho_puts_them_there_nand_who_s_earning_that_fee_you_re_charged_every_time_you_use_one_n_if_you_read_on_you_ll_find_out_how_you_can_start_an_atm_machine_business_yourself_all_of_those_transaction_fees_could_be_going_directly_into_your_pocket_n_let_s_find_out_how"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/atm3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:ems="10"
+                android:text="@string/the_business_model"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/atm4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/atms_aren_t_always_owned_by_banks_or_large_organizations_n_often_they_re_owned_by_savvy_businesspeople_looking_to_capitalize_on_a_consistent_need_that_people_have_on_a_daily_basis_the_need_to_pull_cash_out_of_their_bank_accounts_without_running_into_an_actual_bank_n_it_s_pretty_simple_really_n_you_do_the_research_to_find_ideal_locations_for_atms_that_don_t_already_have_them_n_these_include_gas_stations_and_convenience_stores_groceries_and_supermarkets_clubs_restaurants_bars_shopping_malls_fairs_and_carnivals_etc_n_you_then_deal_with_the_business_owner_directly_to_negotiate_an_agreement_to_provide_them_with_an_atm_nyou_buy_the_machine_install_it_connect_it_to_the_internet_or_phone_line_and_load_cash_into_the_machine_n_every_time_someone_uses_your_atm_you_ll_receive_the_surcharge_usually_somewhere_in_the_general_vicinity_of_3000_nthat_may_seem_like_a_lot_but_imagine_an_8_hour_business_day_in_a_busy_shopping_mall_n_if_only_20_people_use_your_machine_to_withdraw_cash_that_s_2000_a_day_which_translates_to_a_passive_income_of_10_800_a_month_nwhile_you_ll_need_to_subtract_costs_like_transaction_fees_to_the_company_that_processes_the_card_and_the_minor_costs_of_paper_receipt_rolls_that_s_just_a_conservative_figure_for_a_single_machine_n_we_know_what_you_re_wondering_where_does_the_cash_in_the_machine_come_from_you_have_a_couple_of_options_here_nthe_first_is_to_use_your_own_money_which_has_the_benefit_of_allowing_you_to_keep_more_of_your_profits_n_don_t_worry_the_amount_of_cash_removed_will_be_matched_to_you_in_a_payment_from_the_atm_user_nthe_obvious_risks_of_this_involve_the_need_to_carry_and_stock_a_ten_thousand_rupeesor_more_at_a_time_in_your_atm_which_might_invite_theft_n_another_option_is_to_use_a_cash_service_which_you_ll_pay_a_fee_in_exchange_for_them_handling_the_restocking_of_your_atm_and_providing_cash_to_fill_it_n_this_will_eat_into_your_profits_more_but_will_also_insulate_you_against_the_risk_of_being_the_victim_of_a_robbery"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/atm5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:ems="10"
+                android:text="How does it pay?"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/atm6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/because_of_low_overhead_fees_that_come_from_freedom_from_a_need_for_employees_or_business_space_you_re_potential_for_profit_is_significant_n_income_will_vary_significantly_based_on_location_how_many_machines_you_own_and_how_many_transactions_you_process_nbut_many_atm_business_owners_enjoy_a_profit_of_4_00_000_year_from_just_one_machine_nwith_multiple_machines_that_number_increases_exponentially"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/atm7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:ems="10"
+                android:text="Pros "
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/atm8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/very_little_work_involved_to_maintain_business_after_initial_startup_n_companies_available_to_help_guide_your_initial_setup_n_relatively_simple_business_model_n_no_prior_business_experience_required_n_mobile_monitoring_of_cash_levels"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/atm9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:ems="10"
+                android:text="Cons "
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/atm10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/some_startup_capital_required_to_purchase_machines_which_can_cost_anywhere_from_30_000_to_1_00_000_n_negotiation_and_social_skills_required_to_land_desirable_locations_and_agreement_terms_with_businesses_that_host_machines_n_stocking_cash_into_machines_can_be_dangerous_depending_on_area_consider_hiring_an_atm_restocking_company_or_placing_atms_only_in_safe_areas"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/atm11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:ems="10"
+                android:text=" How to get started"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/atm12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="4dp"
+                android:text="@string/as_with_many_businesses_research_is_key_nthere_are_many_companies_online_that_provide_a_complete_guide_to_help_you_get_set_up_from_data_gathering_to_purchasing_or_leasing_machines"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

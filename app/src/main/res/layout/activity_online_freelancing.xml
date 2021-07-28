@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OnlineFreelancing">
+
+    <ImageView
+        android:id="@+id/free1"
+        android:layout_width="match_parent"
+        android:layout_height="211dp"
+        android:background="@drawable/onlinefreelancing"
+        android:scaleType="centerCrop" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/free1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/free2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:drawableStart="@drawable/rtarw"
+                android:drawableLeft="@drawable/rtarw"
+                android:ems="10"
+                android:text="@string/detail_of_business"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/wbnb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="Freelancing is increasing each year as workers are desiring a way to control their schedule and their workload. Upwork, the popular freelance marketplace, found that 57 million Americans freelanced in 2019, an increase of 4 million since 2014. "
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/free3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="When it comes to the earning potential of freelance jobs, Upwork also found that freelancers have a higher median pay rate than standard employee workers ($20.00 vs. $18.80). This is great news for those considering joining the freelance workforce.
+
+"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/free4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="The easiest way to make money online is to take your current job at your 9 to 5 job and do it online instead. For example, if you’re a writer, administrative assistant, graphic designer, teacher, developer, etc., you can take those same skills and find clients online who are looking for it.
+"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/free5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:ems="10"
+                android:text="Ten High-Paying Freelance Jobs:"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/free6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="1.Accountant
+               \n2.Account Executive
+               \n3.Copywriter
+               \n4.Graphic Designer
+               \n5.PR Manager
+               \n6.Professor
+               \n7.Programmer
+               \n8.Software Developer
+               \n9.Technical Writer
+               \n10.Web Developer"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/free7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/holo_green_light"
+                android:ems="10"
+                android:text="Some popular freelance websites are:"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/free8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="50dp"
+                android:text="1. Fiverr.com
+                \n2.Freelancer.com
+                \n3.Upwork.com"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

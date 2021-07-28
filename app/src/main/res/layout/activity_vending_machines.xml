@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VendingMachines">
+
+    <ImageView
+        android:id="@+id/lakh4"
+        android:layout_width="match_parent"
+        android:layout_height="211dp"
+        android:background="@drawable/vending"
+        android:scaleType="centerCrop" />
+
+    <ScrollView
+        android:id="@+id/scr1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/lakh4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/atm1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lakh4"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:drawableStart="@drawable/rtarw"
+                android:drawableLeft="@drawable/rtarw"
+                android:ems="10"
+                android:text="@string/detail_of_business"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/we_know_what_you_re_thinking_n_there_s_no_way_owning_a_few_vending_machines_can_even_be_called_a_business"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/vn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="2dp"
+                android:text="@string/you_d_be_surprised_at_how_lucrative_a_vending_machine_business_can_become_with_a_surprisingly_lowkey_commitment_on_your_end_n_in_this_short_article_we_might_just_convince_you_that_it_s_the_perfect_passive_income_opportunity_to_help_jumpstart_your_earnings"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/vn3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:ems="10"
+                android:text="@string/what_is_it"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vn4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/according_to_u_s_statistics_from_brandongaille_com_vending_machines_earn_over_7_billion_in_sales_every_year_resulting_in_65_million_in_profits_on_an_annual_basis_n_this_mostly_cash_based_business_has_evolved_in_recent_years_as_healthy_snacks_have_begun_selling_nearly_three_times_as_well_as_junk_food_and_sodas"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/vn5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:ems="10"
+                android:text="@string/who_is_this_for"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vn6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/you_ll_need_a_bit_of_startup_capital_to_purchase_the_machines_n_another_factor_to_consider_is_that_there_s_a_bit_of_a_time_investment_involved_with_restocking_the_machines_n_but_once_you_have_a_certain_level_of_earnings_you_can_consider_outsourcing_the_work_to_an_employee_who_can_stock_the_machines_for_you"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/vn7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:ems="10"
+                android:text="@string/how_much_can_you_make"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vn8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/it_all_depends_on_your_machines_locations_sales_number_of_machines_and_the_overall_success_of_your_business_nbut_like_most_business_opportunities_and_passive_income_streams_the_more_research_and_initial_legwork_you_re_willing_to_do_and_the_more_upfront_capital_you_re_willing_to_spend_the_greater_your_opportunities_for_profits_will_be_down_the_road"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/vn9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:ems="10"
+                android:text="How to get started"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/vn10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/first_you_have_to_research_as_much_as_you_can_n_determine_whether_you_d_like_to_purchase_a_machine_and_find_locations_yourself_buy_an_existing_business_or_become_a_franchisee_n_then_you_ll_need_to_purchase_or_lease_machines"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/vn11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:ems="10"
+                android:text="@string/choose_the_right_machine"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vn12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/but_who_cares_about_all_that_you_want_to_know_how_a_vending_machine_business_can_help_you_earn_extra_cash_here_are_the_basics_n_you_ll_need_to_deal_with_initial_costs_mainly_the_purchasing_of_your_machines_themselves_though_these_can_be_financed_n_machines_can_cost_anywhere_from_10_000_or_less_for_a_used_machine_on_craigslist_to_5_00_000_or_more_for_a_brand_new_high_tech_model_n_from_there_your_costs_will_be_fairly_low_as_long_as_you_have_a_small_space_like_a_garage_to_store_stock_and_a_vehicle_to_deliver_it_to_your_machines_you_ll_have_just_about_everything_you_need"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/vn13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:ems="15"
+                android:text="@string/there_are_mainly_3_types_of_machines_you_can_purchase"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vn14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/bulk_machines_these_are_small_in_size_and_can_dispense_only_a_certain_array_of_products_n_they_are_fairly_cheap_and_cost_around_50_to_200_because_the_potential_profit_you_can_earn_is_smaller_too_n_mechanical_machines_n_they_are_like_an_improved_version_of_the_bulk_machines_and_can_dispense_multiple_products_which_is_why_their_price_is_significantly_higher_n_they_cost_around_20_000_30_000_per_machine_but_with_a_higher_cost_comes_also_a_higher_profit_margin_n_electronic_machines_nare_the_modern_day_vending_machines_with_modern_touch_screens_and_systems_that_accept_various_different_forms_of_payment_bills_coins_credit_cards_n_while_electronic_machines_costs_a_minimum_of_30_000_for_a_basic_model_they_are_also_the_most_profitable_types_of_vending_machines_currently_on_the_market_thanks_to_the_acceptance_of_different_payment_methods"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/vn15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:ems="10"
+                android:text="@string/location_location_location"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vn16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/you_will_need_to_find_locations_for_your_vending_machines_and_come_to_agreements_with_the_businesses_or_institutions_where_they_re_placed_n_excellent_locations_include_high_schools_offices_malls_small_businesses_and_other_areas_of_high_foot_traffic_n_you_ll_need_to_contact_business_owners_or_managers_directly_to_come_to_an_agreement_that_you_re_both_happy_with_usually_they_ll_take_around_a_20_commission_for_providing_the_location_and_electricity"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/vn17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:ems="10"
+                android:text="@string/operating_costs"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vn18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/besides_the_startup_costs_there_are_still_regular_costs_you_will_do_during_the_period_the_vending_machine_is_working_n_you_will_have_to_regularly_count_in_refills_repairs_and_maintenance_as_well"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

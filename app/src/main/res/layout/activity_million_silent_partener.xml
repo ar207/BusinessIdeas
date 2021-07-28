@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MillionSilentPartener">
+
+    <ImageView
+        android:id="@+id/mil3"
+        android:layout_width="match_parent"
+        android:layout_height="211dp"
+        android:background="@drawable/partner"
+        android:scaleType="centerCrop" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/mil3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ptn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:drawableStart="@drawable/rtarw"
+                android:drawableLeft="@drawable/rtarw"
+                android:ems="10"
+                android:text="@string/detail_of_business"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ptn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/if_you_ve_got_capital_but_no_interest_skills_or_time_to_put_into_actually_operating_and_running_a_business_becoming_a_silent_partner_might_be_a_great_option_for_you_n_like_all_investments_there_s_some_level_of_risk_n_but_if_you_can_throw_your_support_behind_some_successful_brands_and_people_you_will_be_rewarded_with_massive_roi_and_a_significant_source_of_passive_income_that_can_indeed_be_life_changing_n_let_s_take_a_look_at_just_what_being_a_silent_partner_means"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/ptn3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:ems="10"
+                android:text="What is it?  "
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/ptn4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/not_all_investors_in_startups_and_other_companies_want_to_be_directly_involved_in_the_decision_making_process_na_silent_partner_is_a_person_who_invests_money_in_a_business_in_order_to_receive_a_share_of_their_profits_but_doesn_t_get_involved_with_how_the_business_is_run_or_operated_on_a_daily_basis_n_that_being_said_silent_partners_often_have_a_say_regarding_the_overall_big_picture_and_direction_of_companies_in_which_they_invest_n_the_benefits_of_becoming_a_silent_partner_are_numerous_n_first_of_all_you_carry_no_responsibility_to_actually_work_towards_the_business_success_n_that_s_on_the_people_who_operate_the_business_n_you_re_essentially_just_a_bank_with_the_opportunity_to_get_massively_paid_if_the_business_succeeds_n_it_s_a_great_way_to_receive_passive_income_without_constantly_monitoring_the_direction_your_investment_is_taking"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/ptn5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:ems="10"
+                android:text="Who is it for?   "
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/ptn6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/if_you_have_some_capital_to_offer_but_don_t_want_to_invest_a_great_deal_of_time_and_energy_into_a_business_becoming_a_silent_partner_is_the_perfect_opportunity_for_you_n_you_have_to_be_at_least_a_little_comfortable_with_risk_as_even_companies_with_huge_potential_can_experience_mismanagement_mistakes_or_unpredictable_market_volatility_that_can_derail_their_success_n_but_if_you_have_the_savvy_to_pick_smart_recipients_of_your_partnership_you_ll_dramatically_increase_the_likelihood_of_picking_a_winning_horse"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/ptn7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:ems="10"
+                android:text="How does it pay?"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/ptn8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/this_depends_widely_on_your_initial_investment_share_of_the_company_and_that_company_s_profits_and_level_of_success_nbut_let_s_give_a_short_example_to_showcase_how_a_silent_partnership_might_develop_n_duckydrone_is_a_imaginary_local_startup_that_produces_revolutionary_wifi_controlled_and_automated_rubber_ducks_and_they_re_in_need_of_funding_n_you_ve_seen_their_business_plan_and_profits_over_the_last_few_years_and_it_all_looks_very_promising_n_you_make_an_initial_investment_of_10_000_in_return_for_a_10_share_of_the_company_nin_the_first_two_years_of_your_silent_partnership_they_average_50_000_in_profits_annually_n_this_covers_your_initial_investment_n_the_next_year_they_re_featured_on_dronenet_an_imaginary_online_drone_magazine_n_their_profits_explode_tripling_to_15_00_000_that_year_n_you_pocket_1_50_000_that_year_n_you_ve_now_doubled_your_investment_and_then_some_as_the_company_grows_so_do_your_earnings"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/ptn9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:ems="10"
+                android:text="Pros "
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/ptn10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/no_day_to_day_work_for_company_n_passive_income_can_be_huge_if_company_performs_well"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/ptn11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:ems="10"
+                android:text="Cons "
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/ptn12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/requires_up_front_investment_of_capital_n_you_ll_need_to_do_a_great_deal_of_research_before_investing_in_any_company_n_this_will_ensure_that_you_have_the_absolute_best_chance_of_a_good_return_on_investment_n_even_great_businesses_can_experience_bad_fortune_you_have_no_guarantee_of_earning_back_your_investment"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/ptn13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:ems="10"
+                android:text=" How to Get Started "
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/ptn14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/research_and_networking_is_key_look_for_startups_that_have_a_strong_initial_possibility_of_success_but_might_need_some_additional_funding_to_get_going_nyou_ll_also_want_to_conduct_some_research_into_the_legal_requirements_of_entering_into_a_silent_partnership_which_fortunately_aren_t_too_complex_nfrom_there_you_can_contact_a_business_directly_and_inquire_about_their_interest_in_taking_you_on_as_a_silent_partner"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/ptn15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:ems="10"
+                android:text=" Summary"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/ptn16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/bringing_the_prestige_and_potential_earnings_of_investing_in_a_business_with_none_of_the_day_to_day_work_becoming_a_silent_partner_is_a_powerful_opportunity_for_passive_income_nit_s_not_without_it_s_risks_but_if_you_re_willing_to_put_in_the_legwork_you_ll_be_rewarded_with_a_higher_possibility_of_success"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

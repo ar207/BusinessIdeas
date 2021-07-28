@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MillionAirbnb">
+
+    <ImageView
+        android:id="@+id/mil1"
+        android:layout_width="match_parent"
+        android:layout_height="211dp"
+        android:background="@drawable/airbnbwithhome"
+        android:scaleType="centerCrop" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/mil1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/bnb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:drawableStart="@drawable/rtarw"
+                android:drawableLeft="@drawable/rtarw"
+                android:ems="10"
+                android:text="@string/detail_of_business"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/bnb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/airbnb_is_an_app_where_millions_of_people_are_making_money_renting_out_their_extra_bedroom_entire_house_or_unused_space_to_travellers_n_there_are_over_500_000_bookings_every_night_on_airbnb_in_over_190_countries_n_wherever_you_are_in_the_world_chances_are_you_can_start_making_money_as_an_airbnb_host_n_here_is_how_you_can_make_airbnb_an_income_stream_even_if_you_don_t_own_a_home"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/bnb3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:ems="10"
+                android:text="@string/how_does_airbnb_work"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/bnb4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/all_you_need_to_start_making_money_is_a_spare_room_apartment_or_house_however_small_or_big_it_may_be_n_if_you_have_that_simply_sign_up_as_an_airbnb_host_and_create_your_listing"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/bnb5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/if_you_don_t_have_an_extra_room_or_don_t_own_a_home_there_are_still_options"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/bnb6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/use_other_people_s_properties_and_start_an_airbnb_management_company_n_rent_out_your_place_while_you_are_travelling_not_at_home_n_you_can_convert_one_of_your_rooms_into_an_extra_bedroom_n_ask_your_landlord_for_permission_to_use_airbnb_give_them_some_profits_n_buy_a_property_to_use_for_airbnb_n_find_a_friend_who_has_a_room_s_and_make_a_deal_with_them"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/bnb7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:ems="10"
+                android:text="@string/how_much_can_you_earn"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/bnb8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/some_people_can_cover_their_mortgage_payments_with_airbnb_others_are_running_a_full_time_business_with_multiple_properties_nthere_is_no_limit_to_how_much_you_can_earn_it_depends_how_serious_you_want_to_take_it_n_in_general_your_location_and_the_type_of_space_you_have_is_what_will_determine_your_income_na_luxury_condo_in_las_vegas_will_earn_more_than_a_1_bedroom_house_in_a_small_town_n_click_here_to_see_how_much_your_place_is_worth"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/bnb9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/here_are_some_variables_that_will_determine_your_income"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/bnb10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/your_nightly_price_n_your_vacancy_rate_how_many_nights_will_you_be_booked_n_your_place_how_many_guests_you_can_accommodate_size_of_home_amenities_etc_n_your_location_is_there_tourism_heavy_business_area_a_travel_hotspot_a_large_city_n_time_of_year_season_n_competition_supply_demand_in_your_area_affects_the_price_n_automation_if_you_want_it_to_be_100_passive_there_will_be_more_expenses"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/bnb11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:ems="10"
+                android:text="@string/how_to_get_started"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/bnb12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/if_you_re_interested_in_starting_your_own_airbnb_business_as_a_side_hustle_or_to_build_passive_income_we_actually_made_an_entire_app_on_this_topic_n_you_can_download_our_free_airbnb_guide_here_n"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/bnb13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/if_you_want_a_quick_overview_here_is_the_basic_process_for_getting_your_first_booking"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/bnb14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/get_a_room_or_house_you_can_list_on_airbnb_n_make_an_airbnb_account_you_can_sign_up_here_n_create_a_great_listing_airbnb_walks_you_through_the_process_n_start_receiving_bookings_set_your_calendar_price_and_let_the_money_start_coming_in_n_welcome_your_guest_prepare_the_property_and_wait_for_your_guests_to_arrive_n_get_paid_once_your_guests_finish_their_stay_you_automatically_get_paid_airbnb_keeps_3_n_set_up_systems_optional_set_things_up_like_self_check_in_cleaning_services_and_more_so_you_have_a_passive_income_stream_n_anyone_can_do_airbnb_without_prior_experience_but_there_are_a_lot_of_steps_involved_n_if_you_want_to_save_time_download_our_free_airbnb_guide_to_get_your_listing_up_in_a_few_hours"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/bnb15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:ems="15"
+                android:text="@string/find_out_how_much_your_unit_will_make"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/bnb16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="50dp"
+                android:text="@string/millions_of_people_are_using_airbnb_nif_you_want_a_slice_of_the_pie_start_by_finding_out_how_much_you_can_earn_in_your_area_n_if_you_re_interested_in_starting_your_own_airbnb_business_as_a_side_hustle_or_to_build_passive_income_download_our_free_airbnb_guide_here_for_step_by_step_instructions"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

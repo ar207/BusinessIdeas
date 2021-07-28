@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LaundryBusiness">
+
+    <ImageView
+        android:id="@+id/lakh3"
+        android:layout_width="match_parent"
+        android:layout_height="211dp"
+        android:background="@drawable/loundry"
+        android:scaleType="centerCrop" />
+
+    <ScrollView
+        android:id="@+id/scr1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/lakh3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lnd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lakh3"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:drawableStart="@drawable/rtarw"
+                android:drawableLeft="@drawable/rtarw"
+                android:ems="10"
+                android:text="@string/detail_of_business"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/lnd1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/if_you_ve_always_wanted_to_own_a_business_as_a_passive_income_stream_buying_or_opening_a_laundromat_can_be_a_lucrative_and_low_startup_cost_opportunity_n_plus_the_industry_has_recently_undergone_a_much_more_appealing_transformation_than_its_dingy_history_suggests"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/lnd2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:ems="10"
+                android:text="@string/what_is_it"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/lnd3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/buying_a_laundromat_is_a_viable_option_for_someone_with_a_bit_of_up_front_capital_associated_with_buying_or_launching_a_business_n_total_costs_of_buying_a_laundromat_range_from_2_00_000_to_5_00_000_though_you_can_always_pick_up_a_business_loan_n_and_while_its_possible_to_own_and_operate_a_laundromat_as_a_side_hustle_you_will_need_a_bit_of_time_to_devote_to_its_management_and_maintenance_n_that_being_said_hiring_a_trusted_day_to_day_manager_can_take_much_of_that_pressure_off_of_you_n_don_t_think_you_know_enough_about_laundromats_to_start_one_nindustry_experts_say_that_the_majority_of_owners_had_no_prior_business_ownership_or_laundromat_experience_prior_to_starting_their_own"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/lnd4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:ems="10"
+                android:text="@string/how_much_can_you_make"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/lnd5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/the_average_laundromat_grosses_anywhere_between_3_00_000_to_1_million_per_year_n_that_of_course_depends_on_a_wide_range_of_factors_including_location_how_well_the_business_is_run_and_foot_traffic_n_expenses_generally_run_about_65_off_gross_income_n_that_means_if_your_laundromat_grosses_8_00_000_a_year_you_can_walk_away_with_a_profit_of_2_80_000_n_you_can_earn_even_more_with_higher_profits_and_higher_margins_n_overall_it_s_a_surprisingly_lucrative_investment_whether_you_ultimately_own_one_location_or_several_n_the_key_according_to_industry_experts_is_you_the_owner_n_better_run_laundromats_earn_more_with_higher_margins_nif_you_re_willing_to_put_in_the_energy_to_make_your_laundromat_clean_pleasant_and_offer_service_others_don_t_you_ll_be_rewarded_with_greater_earnings"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/lnd6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:ems="10"
+                android:text="@string/pros"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/lnd7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/powerful_passive_income_with_a_high_ceiling_n_prestige_of_being_a_legitimate_business_owner_n_opportunity_for_expansion_if_initial_location_performs_well_n_priceless_skills_acquired_by_running_business"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/lnd8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:ems="10"
+                android:text="@string/cons"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/lnd9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/large_up_front_capital_required_n_costs_associated_with_buying_starting_marketing_and_operating_business_n_standard_risks_associated_with_opening_brick_and_mortar_business_location_n"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/lnd10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:ems="10"
+                android:text="How to get started"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/lnd11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/as_with_any_business_the_key_is_research_research_research_n_one_of_the_most_important_factors_to_consider_is_location_n_established_neighborhoods_often_have_at_least_a_couple_of_laundromats_already_and_customers_are_more_likely_to_stick_with_one_they_know_than_a_new_upstart_n_one_option_is_to_renovate_an_existing_location_or_you_can_find_an_area_experiencing_rapid_population_growth_n_in_any_case_developing_a_legitimate_business_plan_will_be_the_first_major_step_in_getting_on_your_way_to_becoming_the_laundromat_king_of_your_city"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/lnd12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:ems="10"
+                android:text="Summary"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/lnd13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/buying_a_laundromat_may_be_a_bigger_step_than_some_passive_income_seekers_are_ready_for_but_if_you_re_willing_to_make_the_leap_you_could_be_rewarded_with_significant_earning"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

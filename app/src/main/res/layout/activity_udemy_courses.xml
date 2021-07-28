@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UdemyCourses">
+
+    <ImageView
+        android:id="@+id/udemy_cources_image"
+        android:layout_width="match_parent"
+        android:layout_height="211dp"
+        android:background="@drawable/skill"
+        android:scaleType="centerCrop" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/udemy_cources_image">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/skil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:drawableStart="@drawable/rtarw"
+                android:drawableLeft="@drawable/rtarw"
+                android:ems="10"
+                android:text="@string/detail_of_business"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/skil1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/the_exploding_market_for_online_courses_is_a_lucrative_opportunity_for_passive_income_nif_you_ve_got_a_skillset_that_you_think_is_marketable_and_the_ability_to_communicate_it_effectively_to_others_this_avenue_could_be_perfect_for_you"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/skil2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:ems="12"
+                android:text="@string/what_is_skillshare_and_udemy"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/skil3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/they_are_online_platforms_designed_to_empower_people_with_certain_skills_to_share_those_skills_with_those_looking_to_learn_them_nthey_provide_an_opportunity_for_creators_to_produce_and_upload_courses_that_can_range_from_video_centric_to_more_test_heavy_options_depending_on_your_personal_production_skills"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/skil4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:ems="10"
+                android:text="Who is it for? "
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/skil5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/first_and_foremost_you_ll_obviously_need_a_marketable_skill_to_teach_n_but_you_d_be_surprised_at_the_wide_variety_of_courses_that_do_well_on_udemy_n_there_are_dozens_of_categories_and_subcategories_so_you_re_sure_to_find_a_niche_that_perfectly_suits_your_own_perfectly_set_of_marketable_skills_n_but_you_ll_need_something_more_than_skills_you_ll_need_to_be_a_skilled_communicator_to_help_people_benefit_from_what_you_have_to_say_n_if_you_can_hold_your_own_in_front_of_a_video_camera_and_communicate_what_you_know_with_clarity_you_ll_do_well"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/skil6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:ems="10"
+                android:text="How does it pay? "
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/skil7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/this_is_a_difficult_number_to_pin_down_as_udemy_and_skillshare_earnings_can_range_from_a_couple_hundred_dollars_per_year_to_tens_of_thousands_each_month_n_it_all_comes_down_to_how_well_your_course_performs_n_there_are_things_you_can_do_to_increase_your_chances_n_uploading_some_of_your_videos_to_youtube_and_linking_them_back_to_your_course_or_using_other_marketing_channels_to_promote_your_course_nother_udemy_newbies_will_often_offer_their_courses_for_free_at_first_to_drive_traffic_and_get_ratings_before_switching_to_a_payed_model_once_they_have_a_bit_of_a_reputation_on_the_site_n_as_for_skillshare_the_site_works_on_a_royalty_system_that_determines_how_much_you_earn_based_on_how_many_total_minutes_of_your_classes_are_watched_n_the_site_says_that_first_time_teachers_tend_to_earn_around_200_in_their_first_month_while_established_teachers_can_earn_as_much_as_3_000_per_month_n_we_recommend_uploading_your_course_to_both_udemy_and_skillshare_to_get_the_most_possible_traffic"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/skil8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:ems="10"
+                android:text="@string/pros"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/skil9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/potential_for_significant_earnings_n_uses_skills_you_already_have_n_no_start_up_costs"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/skil10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:ems="10"
+                android:text="@string/cons"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/skil11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/can_take_some_time_to_build_reputation_n_big_initial_time_investment_of_planning_filming_and_editing_courses_n_organic_revenue_is_split_50_50_with_udemy_n_on_skillshare_royalties_are_shared_among_the_all_teachers_higher_view_rates_lead_to_higher_earnings"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/skil12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:ems="10"
+                android:text="How to Get Started "
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/skil13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/first_you_ll_want_to_begin_taking_notes_on_which_of_your_skills_might_be_the_most_marketable_n_head_to_udemy_or_skillshare_to_see_which_types_of_courses_are_doing_well_or_which_ones_have_gaps_that_you_could_fill"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/skil14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/holo_green_light"
+                android:ems="10"
+                android:text="@string/summary"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/skil15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="50dp"
+                android:text="@string/udemy_and_skillshare_offer_excellent_opportunities_to_turn_your_skills_and_teaching_abilities_into_cash_nif_you_re_willing_to_put_in_the_initial_setup_work_it_could_turn_into_a_lucractive_source_of_passive_income_n_click_here_to_get_2_free_months_of_skillshare_premium_n_you_can_see_what_their_service_is_like_from_the_mind_of_a_student"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

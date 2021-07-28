@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".OfflineIdeasPortal">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/tenk"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="10dp"
+        app:cardBackgroundColor="#990000"
+        app:cardCornerRadius="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="27dp"
+            android:text="Ten-k to One lak"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+    android:id="@+id/lak_to_million"
+    android:layout_width="400dp"
+    android:layout_height="100dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="240dp"
+    android:layout_marginRight="10dp"
+    app:cardBackgroundColor="#990000"
+    app:cardCornerRadius="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="27dp"
+        android:text="One lak to Million"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+</androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/million_to_onward"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginRight="10dp"
+        app:cardBackgroundColor="#990000"
+        app:cardCornerRadius="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="27dp"
+            android:text="Million to Onward"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+<!--    <ScrollView-->
+<!--        android:id="@+id/offline_ideas_portal"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_marginTop="0dp"-->
+<!--        tools:ignore="NotSibling,UnknownIdInLayout">-->
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/img1"-->
+<!--                android:layout_width="520dp"-->
+<!--                android:layout_height="250dp"-->
+<!--                android:layout_marginLeft="-30dp"-->
+<!--                android:layout_marginTop="0dp"-->
+<!--                android:layout_marginRight="-25dp"-->
+<!--                android:background="@drawable/businessone"-->
+<!--                android:onClick="onClick"-->
+<!--                tools:ignore="OnClick" />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/img2"-->
+<!--                android:layout_width="520dp"-->
+<!--                android:layout_height="250dp"-->
+<!--                android:layout_marginLeft="-30dp"-->
+<!--                android:layout_marginTop="220dp"-->
+<!--                android:layout_marginRight="-25dp"-->
+<!--                android:background="@drawable/onetoonemillion"-->
+<!--                android:onClick="onClick"-->
+<!--                tools:ignore="OnClick" />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/img4"-->
+<!--                android:layout_width="520dp"-->
+<!--                android:layout_height="250dp"-->
+<!--                android:layout_marginLeft="-30dp"-->
+<!--                android:layout_marginTop="440dp"-->
+<!--                android:layout_marginRight="-25dp"-->
+<!--                android:background="@drawable/milliontoonward"-->
+<!--                android:onClick="onClick"-->
+<!--                tools:ignore="OnClick" />-->
+
+<!--        </RelativeLayout>-->
+<!--    </ScrollView>-->
+
+</RelativeLayout>

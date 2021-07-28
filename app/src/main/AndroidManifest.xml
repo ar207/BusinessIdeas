@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.businessideas">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/mainlogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/mainlogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AllIdeasActivity"></activity>
+        <activity android:name=".AllIdeasSearchingPortal" />
+        <activity android:name=".NotFoundIdea" />
+        <activity android:name=".MobileMart" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MillionBakkery" />
+        <activity android:name=".MillionSilentPartener" />
+        <activity android:name=".MillionCar" />
+        <activity android:name=".MillionAirbnb" />
+        <activity android:name=".VendingMachines" />
+        <activity android:name=".LaundryBusiness" />
+        <activity android:name=".AtmMachine" />
+        <activity android:name=".AirbndWithoutHome" />
+        <activity android:name=".UdemyCourses" />
+        <activity android:name=".MoneyWithBike" />
+        <activity android:name=".MoneyFromCamera" />
+        <activity android:name=".MultaniMitti" />
+        <activity android:name=".OneMilliontoOnward" />
+        <activity android:name=".LaktoOneMillion" />
+        <activity android:name=".TenktoOneLak" />
+        <activity android:name=".OnlineYoutube" />
+        <activity android:name=".OnlineFreelancing" />
+        <activity android:name=".OnlineEbook" />
+        <activity android:name=".OnlineDropshipping" />
+        <activity android:name=".OnlineBlogging" />
+        <activity android:name=".OnlineAffiliateMarketing" />
+        <activity android:name=".OnlineIdeasPortal" />
+        <activity android:name=".OfflineIdeasPortal" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>
